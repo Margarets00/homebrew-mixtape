@@ -4,8 +4,8 @@
 # CI auto-updates version + sha256 on each release via update-homebrew-tap.sh
 
 cask "mixtape" do
-  version "0.2.1"
-  sha256 "882cbd2702bbb6ccd48d12f7dd4590598027f578509f1c06812722d3a8b7bc34"
+  version "0.2.2"
+  sha256 "664ba5c6b8b49932fd92e70773728df9afcf0fe299ce8cdf1790d04359267549"
 
   url "https://github.com/Margarets00/mixtape/releases/download/v#{version}/mixtape_#{version}_universal-np.dmg"
   name "mixtape"
