@@ -14,11 +14,12 @@ cask "mixtape" do
 
   app "mixtape.app"
 
-  # yt-dlp and ffmpeg are required but not bundled in this variant
+  # yt-dlp, ffmpeg, and deno are required but not bundled in this variant
   depends_on formula: "yt-dlp"
   depends_on formula: "ffmpeg"
+  depends_on formula: "deno"
 
   caveats <<~EOS
-    mixtape requires yt-dlp and ffmpeg (installed automatically as dependencies).
+    mixtape requires yt-dlp, ffmpeg, and deno (installed automatically as dependencies).
   EOS
 end
